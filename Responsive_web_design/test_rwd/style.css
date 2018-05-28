@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+.container > div {
+    height: 200px;
+    border: 2px solid black;
+    display: block;
+}
+
+
+@media only screen and (max-width: 450px) {
+    #small {background: red;}
+    #medium, #large {display: none;}
+}
+@media only screen and (max-width: 768px) {
+    #medium {background: green;}
+    #small, #large { display: none;}
+}
+@media only screen and (min-width: 768px) {
+    #large {background: blue;}
+    #medium, #small {display: none;}
+}
