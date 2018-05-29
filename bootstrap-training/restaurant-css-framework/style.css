@@ -1,0 +1,17 @@
+.bg-dark {
+    border-radius: 20px;
+}
+
+.jumbo {
+    border-radius: 20px;
+}
+
+.vatefairefoutre {
+    background-color: rgba(128, 128, 128, 0.349);
+    border-radius: 20px;
+    padding: 5px 5px 50px 5px;
+}
+
+li a  {
+    color: white;
+}
